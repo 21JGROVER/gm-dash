@@ -3,20 +3,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     for (let index = 0; index < 4; index++) {
-        basic.showLeds(`
-            . . # . .
-            . . # . #
-            # . . . #
-            . . # . #
-            . . # . .
-            `)
-        basic.showLeds(`
-            . # . . .
-            . # . . .
-            . # . . .
-            . . . # .
-            . . . # .
-            `)
+        basic.showIcon(IconNames.Confused)
     }
 })
 input.onButtonPressed(Button.B, function () {
